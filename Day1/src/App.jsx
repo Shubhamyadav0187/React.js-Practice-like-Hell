@@ -1,14 +1,25 @@
 // import React from 'react'
 // import React, {Component} from 'react';
+import ExpensiveCalculator from './ExpensiveCalculator';
+import Login from './Login';
+import UsersList from './UsersList';
 import Welcome from './Welcome';
 
 
 // its a functional component 
-function App(){
+function App() {
   return (
-    // <div>App</div>
-    // <h1>Hello, Shubham!</h1>
-    <Welcome name="Shubham"  surname = "yadav"/>
+    <>
+      {/* <h1>Hello, Shubham!</h1> */}
+      {/* // <Welcome name="Shubham"  surname = "yadav"/> */}
+      {/* <Login /> */}
+      {/* <UsersList/> */}
+      <ExpensiveCalculator/>
+      
+      
+    </>
+
+
   )
 }
 

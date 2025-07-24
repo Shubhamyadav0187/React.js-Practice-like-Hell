@@ -1,12 +1,52 @@
-# React + Vite
+# 🚀 React.js Learning – Day 1
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+## 📅 Day 1 Topics:
+- What is React?
+- Why React? (Features & Benefits)
+- Virtual DOM vs Real DOM
+- Setting up your first React app
+- JSX (JavaScript XML) – Syntax, Rules, Usage
+- Functional Component Basics
+- Mini Project: Greeting App
+- Interview Questions & Practice
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## 🔷 What is React?
 
-## Expanding the ESLint configuration
+React is an open-source **JavaScript library** developed by **Facebook** for building **user interfaces**, especially **single-page applications (SPAs)**. It uses a **component-based architecture**, making code reusable and maintainable.
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+---
+
+## 🔷 Why Use React?
+
+| Feature | Description |
+|--------|-------------|
+| 🔁 Reusability | Build UI using components |
+| ⚡ Fast | Uses Virtual DOM |
+| 🎣 Hooks | Use state & side effects in functional components |
+| 🌐 Community | Huge ecosystem |
+| 🧱 Modular | UI is split into small manageable pieces |
+
+---
+
+## 🔷 Virtual DOM vs Real DOM
+
+| Real DOM | Virtual DOM |
+|----------|-------------|
+| Updates entire tree | Updates only changed part |
+| Slower | Faster |
+| Directly manipulates HTML | Works in memory |
+
+---
+
+## 🔷 Setting Up React
+
+### 🧰 Requirements:
+- Node.js installed
+
+### 🧪 Steps:
+```bash
+npx create-react-app my-first-app
+cd my-first-app
+npm start
